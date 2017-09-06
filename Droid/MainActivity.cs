@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System.Security.Cryptography;
 
 namespace MatXiTest.Droid
 {
@@ -21,6 +22,7 @@ namespace MatXiTest.Droid
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
 			button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            ECCurve curve = ECCurve.CreateFromValue("");
 		}
 	}
 }
