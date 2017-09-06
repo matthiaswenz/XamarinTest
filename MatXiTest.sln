@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatXiTest.Droid", "Droid\Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatXiTest.iOS", "iOS\MatXiTest.iOS.csproj", "{F03C91A9-3730-4D59-985C-85A0D41333CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +43,17 @@ Global
 		{F03C91A9-3730-4D59-985C-85A0D41333CA}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{F03C91A9-3730-4D59-985C-85A0D41333CA}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{F03C91A9-3730-4D59-985C-85A0D41333CA}.Debug|iPhone.Build.0 = Debug|iPhone
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|iPhone.Build.0 = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{8DD5B3E3-D0B4-42EA-BDB7-B0D1B476302A}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
